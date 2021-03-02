@@ -36,6 +36,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.androiddevchallenge.data.PuppyRepo
+import com.example.androiddevchallenge.ui.MyApp
+import com.example.androiddevchallenge.ui.PuppyDetails
+import com.example.androiddevchallenge.ui.PuppyList
 import com.example.androiddevchallenge.ui.theme.MyTheme
 import com.example.androiddevchallenge.ui.theme.grey
 
