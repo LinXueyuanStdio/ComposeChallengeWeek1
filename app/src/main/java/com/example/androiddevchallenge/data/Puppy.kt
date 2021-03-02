@@ -27,7 +27,8 @@ data class Puppy(
     val gender: String,
     val desc: String,
     @DrawableRes val imageId: Int,
-    val tags: Set<String>
+    val tags: Set<String>,
+    var adopted: Boolean = false
 )
 
 object PuppyRepo {

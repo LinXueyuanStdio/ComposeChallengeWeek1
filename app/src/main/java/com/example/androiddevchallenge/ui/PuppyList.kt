@@ -83,7 +83,7 @@ fun PuppyItem(
                     .size(60.dp)
                     .clip(
                         shape = MaterialTheme.shapes.small.copy(
-                            CornerSize(30.dp)
+                            CornerSize(8.dp)
                         )
                     ),
                 contentScale = ContentScale.Crop
