@@ -71,7 +71,7 @@ fun PuppyDetails(puppy: Puppy, modifier: Modifier = Modifier) {
                 color = MaterialTheme.colors.onSurface
             )
             Button(
-                onClick = {  },
+                onClick = { },
                 modifier = Modifier
                     .padding(0.dp, 8.dp)
                     .fillMaxWidth()

@@ -1,18 +1,20 @@
-# Put title of your app here
+# Puppy Home
 
 <!--- Replace <OWNER> with your Github Username and <REPOSITORY> with the name of your repository. -->
 <!--- You can find both of these in the url bar when you open your repository in github. -->
-![Workflow result](https://github.com/<OWNER>/<REPOSITORY>/workflows/Check/badge.svg)
+![Workflow result](https://github.com/LinXueyuanStdio/ComposeChallengeWeek1/workflows/Check/badge.svg)
 
 
 ## :scroll: Description
-<!--- Describe your app in one or two sentences -->
+
+This is a puppy adoption app. It allows users to browse the puppies and see the pet's details, and they can mark pets as favorite if they like. App is completely built based on Jetpack Compose.
 
 
 ## :bulb: Motivation and Context
-<!--- Optionally point readers to interesting parts of your submission. -->
-<!--- What are you especially proud of? -->
 
+I build the app while reading the Compose tutorials. Never before have I seen such concise, very clear, flexible Composable. Compose is brand new but it is pretty cool. I can foresee in the future more and more developers will dive into and be crazy for it.
+
+App is beautiful! The Compose framework works perfectly with Material Design!
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->

@@ -20,12 +20,18 @@ import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.layout.RowScope
-import androidx.compose.material.*
+import androidx.compose.material.Icon
+import androidx.compose.material.IconButton
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.rounded.ArrowBack
 import androidx.compose.material.icons.rounded.Pets
-import androidx.compose.runtime.*
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.MutableState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
@@ -53,10 +59,10 @@ private fun ShowPuppiesList(selectedPuppyId: MutableState<Int>) {
     val icon = if (puppy.id < 1) Icons.Rounded.Pets else Icons.Rounded.ArrowBack
     val title = if (puppy.id < 1) stringResource(R.string.app_name) else puppy.name
     val onIconClick: (() -> Unit) = if (puppy.id < 1) ({}) else (
-            {
-                selectedPuppyId.value = 0
-            }
-            )
+        {
+            selectedPuppyId.value = 0
+        }
+        )
 
     val actions: @Composable RowScope.() -> Unit = if (puppy.id < 1) {
         {}
